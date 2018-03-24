@@ -1,0 +1,67 @@
+{
+  "name": "react-idled",
+  "version": "0.0.0-development",
+  "description": "A React component that notifies you when the user is idle.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "nps",
+    "prepush": "npm start validate.prepush",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newyork-anthonyng/react-idled.git"
+  },
+  "keywords": [
+    "react",
+    "idle",
+    "react-idle"
+  ],
+  "author": "Anthony Ng <newyork.anthonyng@gmail.com> (http://anthonyng.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newyork-anthonyng/react-idled/issues"
+  },
+  "homepage": "https://github.com/newyork-anthonyng/react-idled#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "codecov": "^3.0.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-react": "^7.6.0",
+    "husky": "^0.14.3",
+    "jest": "^22.1.4",
+    "nps": "^5.7.1",
+    "nps-utils": "^1.5.0",
+    "prettier": "^1.10.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.2.0",
+    "semantic-release": "^15.1.4",
+    "travis-deploy-once": "^4.4.1",
+    "webpack": "^3.10.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "prop-types": "^15.6.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

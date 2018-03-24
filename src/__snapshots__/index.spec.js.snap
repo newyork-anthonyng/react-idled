@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should attach event listeners when mounting 1`] = `
+Object {
+  "error": [Function],
+  "keydown": [Function],
+  "mousedown": [Function],
+  "mousemove": [Function],
+  "scroll": [Function],
+  "touchstart": [Function],
+}
+`;
+
+exports[`should call onChange function with correct argument when component becomes active 1`] = `
+Object {
+  "idle": false,
+}
+`;
+
+exports[`should call onChange function with correct argument when component becomes idle 1`] = `
+Object {
+  "idle": true,
+}
+`;
+
+exports[`should remove event listeners when unmounting 1`] = `
+Object {
+  "error": undefined,
+  "keydown": undefined,
+  "mousedown": undefined,
+  "mousemove": undefined,
+  "scroll": undefined,
+  "touchstart": undefined,
+}
+`;
+
+exports[`should update event listeners correctly 1`] = `
+Object {
+  "error": undefined,
+  "foo": [Function],
+  "keydown": undefined,
+  "mousedown": undefined,
+  "mousemove": undefined,
+  "scroll": undefined,
+  "touchstart": undefined,
+}
+`;
