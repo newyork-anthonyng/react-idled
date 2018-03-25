@@ -73,6 +73,9 @@ class App extends React.Component {
 }
 ```
 
+# Demo
+[See CodeSandbox for demo](https://codesandbox.io/s/q8j7o0j6l9).
+
 [codecov]: https://codecov.io/gh/newyork-anthonyng/react-idled
 [codecov-badge]: https://img.shields.io/codecov/c/github/newyork-anthonyng/react-idled/master.svg
 [code-climate]: https://codeclimate.com/github/newyork-anthonyng/react-idled/maintainability
