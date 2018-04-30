@@ -54,7 +54,7 @@ The `onChange` prop is a function that is called with the following arguments.
 
 ```jsx
 import React from "react";
-import Idled from "react-idle";
+import Idled from "react-idled";
 
 class App extends React.Component {
   handleChange = ({ idle }) => {
